@@ -1,0 +1,17 @@
+{
+  "name": "@cf-void-starter/domain",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "valibot": "^1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

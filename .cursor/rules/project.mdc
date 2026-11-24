@@ -1,0 +1,6 @@
+---
+description: このリポジトリで常に従うルール
+alwaysApply: true
+---
+
+作業前に [AGENTS.md](../../AGENTS.md) を読み、そこに書いてあるルールに従う。
