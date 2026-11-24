@@ -1,0 +1,12 @@
+node_modules
+dist
+.void
+.wrangler
+.cloudflare
+.fate
+.void-wrangler.jsonc
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+.DS_Store

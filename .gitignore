@@ -1,0 +1,17 @@
+node_modules
+dist
+.turbo
+.void
+.wrangler
+.cloudflare
+.fate
+.void-wrangler.jsonc
+.env
+.env.*
+!.env.example
+playwright-report
+test-results
+blob-report
+*.tsbuildinfo
+.DS_Store
+.audit

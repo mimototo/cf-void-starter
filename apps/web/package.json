@@ -1,0 +1,53 @@
+{
+  "name": "@cf-void-starter/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "vp build",
+    "preview": "vp preview",
+    "postinstall": "void prepare",
+    "typecheck": "tsc --noEmit",
+    "test": "vp test run",
+    "deploy": "void deploy --platform cloudflare",
+    "db:generate": "void db generate",
+    "db:migrate": "void db migrate",
+    "db:seed": "void db seed"
+  },
+  "dependencies": {
+    "@astryxdesign/core": "^0.7.17",
+    "@astryxdesign/theme-neutral": "^0.7.17",
+    "@cf-void-starter/domain": "workspace:*",
+    "@nkzw/fate": "^2.2.5",
+    "@posthog/react": "^1.11.3",
+    "@stylexjs/stylex": "^0.19.2",
+    "@tailwindcss/vite": "^4.3.5",
+    "cf": "1.0.0-rc.0",
+    "hono": "^4.11.9",
+    "posthog-js": "^1.453.3",
+    "react": "^19.2.4",
+    "react-aria": "^3.53.1",
+    "react-aria-components": "^1.22.1",
+    "react-dom": "^19.2.4",
+    "react-fate": "^2.2.5",
+    "react-stately": "^3.51.0",
+    "resend": "^6.39.0",
+    "stripe": "^23.2.0",
+    "tailwindcss": "^4.3.5",
+    "valibot": "^1.5.0",
+    "void-fate": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@void/react": "1.11.0",
+    "oxc-transform-react": ">=0.152.0 <0.157.0",
+    "typescript": "^7.0.2",
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8000",
+    "vite-plus": "1.7.0",
+    "void": "1.11.0"
+  },
+  "overrides": {
+    "vite": "$vite"
+  }
+}

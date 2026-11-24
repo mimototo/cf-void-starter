@@ -1,0 +1,14 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+allowBuilds:
+  "@astryxdesign/core": true
+  better-sqlite3: false
+  core-js: false
+  esbuild: true
+  lefthook: true
+  sharp: true
+  workerd: true
+
+minimumReleaseAge: 0
